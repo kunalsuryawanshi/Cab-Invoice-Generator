@@ -1,11 +1,11 @@
 package com.invoiceservice;
 
 public class Ride {
-    public final double distace;
+    public final double distance;
     public final int time;
 
     public Ride(double distance, int time) {
-        this.distace = distance;
+        this.distance = distance;
         this.time = time;
     }
 }
